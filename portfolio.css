@@ -1,0 +1,134 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+    font-size:20px;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+/*   .special-font{
+    font-family: 'Srisakdi', cursive;
+    line-height: 1.8;
+    color: #f5f6f7;
+  } */
+  p {font-size: 17px;}
+  .margin {margin-bottom: 45px;}
+
+  .image-link-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .bg-1 {
+      display: block;
+    background-image: url("./david-marcu-1425-unsplash.jpg");
+    height: 100%;
+    background-color: #1abc9c; /* Green */
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  .bg-2 { 
+    background-color: #15363B    ; /* Green */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-4 { 
+    background-color: #FFA100; 
+    color: #fff;
+  }
+  .bg-5{
+   
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-6{
+    background-color: #15363B; /* Green */
+    color: #ffffff;
+
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    position: fixed;
+    width:100%;
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+    
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+
+  #projects{
+    text-decoration: none;
+  }
+  #projects :hover{
+    text-decoration: none;
+  }
+
+  #contact{
+    text-decoration: none;
+  }
+  #contact :hover{
+    text-decoration: none;
+  }
+
+  .Introduction{
+    height:100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .devicons {
+    font-size: 4em;
+    color: #15363B ;
+    margin-bottom: 1rem ;
+    display: inline-block;
+  }
+  .red:hover {
+    color: #b03248 ;
+  }
+  
+  .html5:hover {
+    color: #db361e ;
+  }
+  
+  .css3:hover {
+    color: #1d31dd ;
+  }
+  
+  .js:hover {
+    color: #f5db19 ;
+  }
+  .react:hover {
+    color: #53d2fa ;
+  }
+  .bootstrap:hover {
+    color: #442b6a ;
+  }
+  .sass:hover {
+    color: #c24a87 ;
+  }
+  .node:hover {
+    color: #73c71f ;
+  }
+  .git:hover {
+    color: #e93827 ;
+  }
+  

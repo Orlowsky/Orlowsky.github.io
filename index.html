@@ -1,43 +1,233 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Startup_page</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aleksander Orłowski Portfolio</title>
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="portfolio.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
 </head>
 <body>
-<header>
-<p class="startowa">Welcome to the Jungle! </p> 
-</header>
-<div class="container">
-	<!-- Begin MailChimp Signup Form -->
-<style type="text/css">
-	#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="https://coolwebsite.us19.list-manage.com/subscribe/post?u=a440dd8c38fb1eb687891d472&amp;id=a4938170de" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a440dd8c38fb1eb687891d472_a4938170de" tabindex="-1" value=""></div>
-    <div class="clear"><input class="btn btn-danger" type="submit" value="We got Funny Games" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#">Who Am I?<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">My projects</a>
+        <a class="nav-item nav-link" href="#">Technology</a>
+        <a class="nav-item nav-link" href="#">Disabled</a>
+      </div>
     </div>
-</form>
+  </nav>
+  
+
+<!-- First Container -->
+<div class="Introduction container-fluid bg-1 text-center">
+  
+  <div class="intro-content"><h2 class="margin special-font">Aleksander Orłowski</h3>
+  <img src="./1.jpg" class="img-responsive img-circle margin rounded-circle" style="display:inline" alt="Foto" width="300" height="350">
+  <h2>Junior Front-End Developper</h2>
+
+</div>
 </div>
 
-<!--End mc_embed_signup-->
-	<p><button type="button" class="btn btn-danger">We got Everything you want </button></p>
-</div>
-<div class="back">
-	<img class="first" src="james-connolly.jpg">
-	<img class="sec" src="rohit-tandon.jpg">
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <p>I am a 2-year Master's Degree in Computer Science. Earlier, I studied electronics and worked in the electronics industry.
+    I love sport, especially team sports and martial arts. I am also interested in topics related to new technologies, not only in computer science, but also related to the development of humanity, such as electric cars (Tesla) or flights into space (SpaceX).</p><p>  Currently, I am changing the industry to a more related one, which I study right now. I learned Front-End after hours from courses, documentation, with help of Stack-Overflow and by solving my problems related to the creation of websites </p>
+  <p>Everyday is the new opportunity. I try to develop and practice every day, so that every next day brings me closer to the desired goal. I am currently trying to find a job in a company that will allow me to develop my skills, and put me in front of interesting technical challenges. </p>
+  
 </div>
 
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <section id='projects'>
+  <h3 class="margin">My projects</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <a  href='https://github.com/Orlowsky/RoboFriends'>
+        <p class='text-light'>RoboFriends</p> 
+        <img src="./Projects/Robofriends.png" class="img-responsive margin img-fluid img-thumbnail " style="" alt="Image">
+      </a></div>
+    <div class="col-sm-4"> 
+      <a href="https://github.com/Orlowsky/FaceRecognitionApp">
+        <p class='text-light'>Face Recognition App</p>
+        <img src="./Projects/FaceRecognition.png" class="img-responsive margin img-fluid img-thumbnail" style="" alt="Image">
+      </a>
+        </div>
+    <div class="col-sm-4"> 
+    <a href="https://github.com/Orlowsky/budgetApp">
+      <p class='text-light'>BudgetApp</p>
+      <img src="./Projects/BudgetApp.png" class="img-responsive margin img-fluid img-thumbnail" style="" alt="Image">
+    </a>
+    </div>
+    <div class="col-sm-4">
+      <a href='https://github.com/Orlowsky/PigGame'>
+        <p class='text-light'>Pig Game</p>
+        <img src="./Projects/Pig Game.png" class="img-responsive margin img-fluid img-thumbnail" style="" alt="Image">
+      </a>
+        </div>
+  </div>
+</section>
+</div>
+<div class= 'container-fluid underRow bg-4 text-center'>
+    <a class="sr-contact text-light" href="https://github.com/Orlowsky">
+  Link to Github
+  </a>
+</div>
+<!-- Fourth Container -->
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<div class="container-fluid bg-5 text-center">
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Technology</h2>
+          <hr class="my-4">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="devicons devicon-html5-plain sr-contact html5"></i>
+            <h3 class="mb-3">HTML5</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="devicons devicon-css3-plain sr-contact css3"></i>
+            <h3 class="mb-3">CSS3</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="devicons devicon-javascript-plain sr-contact js"></i>
+            <h3 class="mb-3">JavaScript/ES6</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="devicons devicon-react-plain sr-contact react"></i>
+            <h3 class="mb-3">React</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="devicons devicon-bootstrap-plain sr-contact bootstrap"></i>
+            <h3 class="mb-3">Bootstrap</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="devicons devicon-sass-plain sr-contact sass"></i>
+            <h3 class="mb-3">SASS/SCSS</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="devicons devicon-nodejs-plain sr-contact node"></i>
+            <h3 class="mb-3">Node.js</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 text-center">
+          <div class="service-box mt-5 mx-auto">
+            <i class="devicons devicon-git-plain sr-contact git"></i>
+            <h3 class="mb-3">GIT/GitHub</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- Fifth Container (Grid) -->
+<div class="container-fluid bg-6 text-center">    
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Contact</h2>
+          <hr class="my-4">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 ml-auto text-center">
+          <a class="sr-contact text-light" href="https://github.com/Orlowsky">
+            <i class="fa fa-github fa-3x mb-3 sr-contact"></i>
+            <p>
+              github.com/Orlowsky
+            </p>
+          </a>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <a class="sr-contact text-light" href="mailto:orlowski.aleksander@gmail.com">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <p>orlowski.aleksander@gmail.com
+            </p>
+          </a>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <a class="sr-contact text-light" href="https://linkedin.com/in/aleksander-orłowski">
+            <i class="fa fa-linkedin fa-3x mb-3 sr-contact"></i>
+            <p>
+              linkedin.com/in/aleksander-orłowski
+            </p>
+          </a>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-4 mr-auto text-center">
+          <a class='sr-contact text-light'>
+          <i class=" fa fa-phone fa-3x mb-3 sr-contact"></i>
+          <p>+48 698-683-848</p>
+        </a>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <a class="sr-contact text-light" href="">
+            <i class="fa fa-file-o fa-3x mb-3 sr-contact"></i>
+            <p>
+              CV.pdf
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+<!-- Footer -->
+<footer class="container-fluid bg-3 text-center">
+Aleksander Orłowski 
+</footer>
+
+
+<script>
+
+
+
+
+</script>
 </body>
 </html>
